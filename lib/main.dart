@@ -182,7 +182,7 @@ class homePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8),
                       image: DecorationImage(
-                          image: AssetImage(fastion), fit: BoxFit.cover)),
+                          image: AssetImage('assets/banner1.jpeg'), fit: BoxFit.cover)),
                 ),
                 Container(
                   margin: EdgeInsets.all(6.0),
@@ -196,8 +196,20 @@ class homePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8),
                       image: DecorationImage(
-                          image: AssetImage(maaza), fit: BoxFit.cover)),
-                )
+                          image: AssetImage('assets/banner2.png'), fit: BoxFit.cover)),
+                ),Container(
+                  margin: EdgeInsets.all(6.0),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      image: DecorationImage(
+                          image: AssetImage('assets/banner3.jpeg'), fit: BoxFit.cover)),
+                ),Container(
+                  margin: EdgeInsets.all(6.0),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      image: DecorationImage(
+                          image: AssetImage('assets/banner4.jpeg'), fit: BoxFit.cover)),
+                ),
               ],
               options: CarouselOptions(
                   height: 180,
@@ -331,15 +343,15 @@ class homePage extends StatelessWidget {
                   SizedBox(
                     width: 16,
                   ),
-                  card1(xiaomi, 'Xiaomi 14', 'Launch: 7th March'),
+                  card2('assets/sponsored_cover.jpeg', 'Just For Now', '@ 699'),
                   SizedBox(
                     width: 16,
                   ),
-                  card1(maaza, 'Maaza at 1', 'Only For Today'),
+                  card2('assets/sponsored_powerbank.png', 'PowerBank @599', 'Only For Today'),
                   SizedBox(
                     width: 16,
                   ),
-                  card1(boat, 'Biggest Price Drop', 'Just ₹799'),
+                  card2('assets/sponsored_watch.png', 'Biggest Price Drop', 'Just ₹799'),
                   SizedBox(
                     width: 16,
                   ),
